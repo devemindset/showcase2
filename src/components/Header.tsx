@@ -38,7 +38,7 @@ const Header: FC = () => {
 
         return (
     <header className='fixed w-full h-20 2xl:h-30 bg-[var(--bg-header)]/30 flex justify-between items-center px-5 sm:px-10 md:px-20 text-[var(--text-element-small)] z-10 backdrop-blur-md'>
-      <div className='font-bold text-[var(--text-element)] 2xl:text-5xl'>James</div>
+      <div className='font-bold text-[var(--text-element)] 2xl:text-5xl'>FadeCraft</div>
       
       {/* Desktop nav */}
       <nav className='hidden lg:flex space-x-2 2xl:text-2xl 2xl:space-x-4'>

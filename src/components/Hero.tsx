@@ -38,7 +38,7 @@ const Hero: FC = () => {
                     initial= {{ opacity:0, y: -100 }}
                     animate = {{opacity : 1, y: 0}}
                     transition={{ duration:1, delay:0.6}}
-                >Sharp Cuts. Bold Style.</motion.h1>
+                >BarberPro.</motion.h1>
                 <motion.h3 className=' text-center mt-2 sm:mt-4 text-sm sm:text-2xl 2xl:text-5xl text-[var(--text-element-small)]'
                 initial= {{ opacity:0, y: -100 }}
                 animate = {{opacity : 1, y: 0}}
@@ -49,7 +49,7 @@ const Hero: FC = () => {
                 
                     sequence={
                         [
-                            " Your neighborhood barbershop for modern fades, classic cuts, and clean shaves.",1000,"",400
+                            " Fresh & clean",1000,"",400
                         ]
                     }
                     wrapper='span'
